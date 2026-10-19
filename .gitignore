@@ -1,0 +1,22 @@
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+*.pyc
+# Generated model/preprocessing binaries; regenerate by running the notebook.
+artifacts/*.pt
+artifacts/*.joblib
+# Predictions are regenerable and may contain row-level evaluation data.
+artifacts/test_predictions.npz
+# Organizer-provided dataset: obtain separately; do not redistribute by default.
+secom_telemetry_modified.csv
+artifacts/*.npz
+
+.pytest_cache/
+
+# Evaluator-only file — never publish
+secom_legacy_mask_EVALUATOR_ONLY.csv
+
+# Local test and execution artifacts
+.pytest_cache/

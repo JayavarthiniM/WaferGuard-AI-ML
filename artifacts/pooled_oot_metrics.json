@@ -1,0 +1,74 @@
+{
+  "protocol": "Pooled out-of-time rolling-origin evaluation; folds are 40/50/60%, 50/60/70%, 60/70/80% train/validation/test endpoints; final chronological 20% holdout excluded. Preprocessing fitted on each training prefix only; thresholds selected on each validation window only.",
+  "rows": 470,
+  "defects": 20,
+  "prevalence": 0.0425531914893617,
+  "average_precision": 0.04065748287268714,
+  "roc_auc": 0.47444444444444445,
+  "top_k_alert_metrics": {
+    "top_5pct": {
+      "k": 24,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "true_positives": 0
+    },
+    "top_10pct": {
+      "k": 47,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "true_positives": 0
+    }
+  },
+  "contiguous_block_bootstrap_95pct_ci_block25": {
+    "average_precision": [
+      0.021338796744534084,
+      0.0730340297831994
+    ],
+    "roc_auc": [
+      0.31450262470199886,
+      0.6179794505249957
+    ]
+  },
+  "bootstrap_note": "Resamples contiguous chunks of 25 ordered observations; descriptive interval, approximate block bootstrap.",
+  "folds": [
+    {
+      "fold": 1,
+      "train_rows": 626,
+      "validation_rows": 157,
+      "test_rows": 157,
+      "train_prevalence": 0.10383386581469649,
+      "validation_prevalence": 0.012738853503184714,
+      "test_prevalence": 0.05732484076433121,
+      "validation_selected_threshold": 0.0007070855353958905,
+      "validation_f1": 0.06666666666666667,
+      "test_average_precision": 0.06750931973888655,
+      "test_roc_auc": 0.5585585585585586
+    },
+    {
+      "fold": 2,
+      "train_rows": 783,
+      "validation_rows": 157,
+      "test_rows": 156,
+      "train_prevalence": 0.08556832694763729,
+      "validation_prevalence": 0.05732484076433121,
+      "test_prevalence": 0.01282051282051282,
+      "validation_selected_threshold": 0.0004407797532621771,
+      "validation_f1": 0.11538461538461539,
+      "test_average_precision": 0.016653182308522113,
+      "test_roc_auc": 0.44155844155844154
+    },
+    {
+      "fold": 3,
+      "train_rows": 940,
+      "validation_rows": 156,
+      "test_rows": 157,
+      "train_prevalence": 0.08085106382978724,
+      "validation_prevalence": 0.01282051282051282,
+      "test_prevalence": 0.05732484076433121,
+      "validation_selected_threshold": 0.00136685895267874,
+      "validation_f1": 0.043478260869565216,
+      "test_average_precision": 0.045992677225854,
+      "test_roc_auc": 0.35360360360360354
+    }
+  ]
+}

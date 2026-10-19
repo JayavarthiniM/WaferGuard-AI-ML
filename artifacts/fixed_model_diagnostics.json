@@ -1,0 +1,35 @@
+{
+  "test_rows": 314,
+  "test_prevalence": 0.054140127388535034,
+  "permutation_test_method": {
+    "permutations": 5000,
+    "ap_sidedness": "upper-tail: observed AP or higher",
+    "auc_sidedness": "two-sided: absolute distance from 0.5",
+    "caveat": "Row-wise label permutation ignores temporal dependence; descriptive only, not used for model selection."
+  },
+  "supervised_head": {
+    "observed_average_precision": 0.08411434649894632,
+    "observed_roc_auc": 0.6242820360467418,
+    "ap_permutation_p_upper_tail": 0.20295940811837632,
+    "auc_permutation_p_two_sided_vs_0_5": 0.08638272345530894,
+    "permutations": 5000,
+    "null": "row-wise shuffled labels; temporal dependence is ignored"
+  },
+  "reconstruction_error": {
+    "observed_average_precision": 0.04045924128667603,
+    "observed_roc_auc": 0.316696375519905,
+    "ap_permutation_p_upper_tail": 0.993001399720056,
+    "auc_permutation_p_two_sided_vs_0_5": 0.008598280343931213,
+    "permutations": 5000,
+    "null": "row-wise shuffled labels; temporal dependence is ignored",
+    "score_definition": "per-wafer masked mean squared reconstruction error; higher means more anomalous"
+  },
+  "monthly_test_defect_rate": [
+    {
+      "month": "2008-10",
+      "rows": 314,
+      "defects": 17,
+      "defect_rate": 0.054140127388535034
+    }
+  ]
+}

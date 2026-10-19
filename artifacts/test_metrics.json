@@ -1,0 +1,54 @@
+{
+  "threshold_selected_on_validation": 4.072272349731065e-05,
+  "test_rows": 314,
+  "test_defect_prevalence": 0.054140127388535034,
+  "f1": 0.13114754098360656,
+  "precision": 0.07228915662650602,
+  "recall": 0.7058823529411765,
+  "roc_auc": 0.6242820360467418,
+  "average_precision": 0.08411434649894632,
+  "confusion_matrix_tn_fp_fn_tp": [
+    143,
+    154,
+    5,
+    12
+  ],
+  "top_k_alert_metrics": {
+    "top_5pct": {
+      "k": 16,
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "true_positives": 0
+    },
+    "top_10pct": {
+      "k": 32,
+      "precision_at_k": 0.0625,
+      "recall_at_k": 0.11764705882352941,
+      "true_positives": 2
+    }
+  },
+  "iid_bootstrap_95pct_ci": {
+    "f1": [
+      0.06817218798151001,
+      0.19895287958115182
+    ],
+    "precision": [
+      0.03571428571428571,
+      0.11321069182389935
+    ],
+    "recall": [
+      0.5,
+      0.9048701298701293
+    ],
+    "roc_auc": [
+      0.49002346096096094,
+      0.7506303414527694
+    ],
+    "average_precision": [
+      0.04719288596680762,
+      0.15770967808637978
+    ]
+  },
+  "iid_bootstrap_replicates": 2000,
+  "iid_bootstrap_note": "Row-wise percentile bootstrap for descriptive uncertainty only; does not account for temporal dependence and is not used for model selection."
+}

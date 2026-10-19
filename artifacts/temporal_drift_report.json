@@ -1,0 +1,180 @@
+{
+  "rows": 1567,
+  "splits": {
+    "train": {
+      "rows": 940,
+      "defects": 76,
+      "prevalence": 0.08085106382978724,
+      "legacy_rows": 79,
+      "raw_missing_fraction": 0.05141904075009016
+    },
+    "validation": {
+      "rows": 313,
+      "defects": 11,
+      "prevalence": 0.03514376996805112,
+      "legacy_rows": 40,
+      "raw_missing_fraction": 0.034174473384956945
+    },
+    "test": {
+      "rows": 314,
+      "defects": 17,
+      "prevalence": 0.054140127388535034,
+      "legacy_rows": 27,
+      "raw_missing_fraction": 0.03843247328079456
+    }
+  },
+  "largest_median_shift_features": [
+    {
+      "feature": "sensor_129",
+      "split": "validation",
+      "abs_median_shift_in_train_IQR": 4.5798837414127185
+    },
+    {
+      "feature": "sensor_116",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 2.599999999999867
+    },
+    {
+      "feature": "sensor_245",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 2.209998407896831
+    },
+    {
+      "feature": "sensor_517",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 2.201528622679768
+    },
+    {
+      "feature": "sensor_109",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 2.187500000000075
+    },
+    {
+      "feature": "sensor_383",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 2.129901960784314
+    },
+    {
+      "feature": "sensor_318",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.3487292277614855
+    },
+    {
+      "feature": "sensor_487",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.2733148053855416
+    },
+    {
+      "feature": "sensor_34",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.2267020762916618
+    },
+    {
+      "feature": "sensor_36",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.2267020762916618
+    },
+    {
+      "feature": "sensor_393",
+      "split": "validation",
+      "abs_median_shift_in_train_IQR": 1.1358288770053482
+    },
+    {
+      "feature": "sensor_109",
+      "split": "validation",
+      "abs_median_shift_in_train_IQR": 1.1250000000000346
+    },
+    {
+      "feature": "sensor_111",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.1137407276580553
+    },
+    {
+      "feature": "sensor_28",
+      "split": "test",
+      "abs_median_shift_in_train_IQR": 1.0680215331970127
+    },
+    {
+      "feature": "sensor_527",
+      "split": "validation",
+      "abs_median_shift_in_train_IQR": 1.0321932631273758
+    }
+  ],
+  "largest_missingness_change_features": [
+    {
+      "feature": "sensor_109",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_110",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_111",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_244",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_245",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_246",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_382",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_383",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_384",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_516",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_517",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_518",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.7694606315218865
+    },
+    {
+      "feature": "sensor_112",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.6884401680444505
+    },
+    {
+      "feature": "sensor_247",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.6884401680444505
+    },
+    {
+      "feature": "sensor_385",
+      "split": "test",
+      "abs_missing_rate_change_vs_train": 0.6884401680444505
+    }
+  ]
+}
